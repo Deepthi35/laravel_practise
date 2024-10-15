@@ -1,6 +1,5 @@
 <x-laravel-ui-adminlte::adminlte-layout>
     @livewireStyles
-
     <body class="hold-transition sidebar-mini layout-fixed">
         <div class="wrapper">
             <!-- Main Header -->
@@ -64,7 +63,10 @@
             </footer>
         </div>
         <!-- Livewire -->
-        <script src="//unpkg.com/alpinejs" defer></script>
+        {{-- <script src="//unpkg.com/alpinejs" defer></script>
+        @livewireScripts --}}
+        <script src="https://unpkg.com/alpinejs@3.x.x" defer></script>
         @livewireScripts
+        <script src="../js/custom.js"></script>
     </body>
 </x-laravel-ui-adminlte::adminlte-layout>
